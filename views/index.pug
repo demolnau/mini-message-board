@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
+  h1 #{title}
   p Welcome to #{title}
+  
+  each message in messages 
+    div(class='card')
+      p #{message.user}
+      p #{message.text}
+      p #{message.added}
+    
+  button(class=create_btn) 
+    a(href="/new") New message
+

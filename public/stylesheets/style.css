@@ -1,8 +1,12 @@
 body {
+  margin:100px;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.card{
+  margin:20px;
+  padding:10px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
